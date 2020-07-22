@@ -11,5 +11,6 @@
 	<classpathentry kind="lib" path="E:/Selenium jar/libs/okio-1.14.0.jar"/>
 	<classpathentry kind="lib" path="C:/Users/R/Downloads/java-client-7.3.0 (2).jar"/>
 	<classpathentry kind="lib" path="C:/Users/R/Downloads/commons-lang3-3.9 (1).jar"/>
+	<classpathentry kind="lib" path="E:/Selenium jar/testng-6.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

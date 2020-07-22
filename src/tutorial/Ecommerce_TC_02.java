@@ -5,11 +5,14 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 
-import io.appium.java_client.MobileBy;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
+import org.testng.Assert;
 
 public class Ecommerce_TC_02 extends Appium{
+	
+	//1. Fill the form details and verify Toast error message displayed approprietly for the wrong inputs
+	//2. validate if the item selected in the page 2 are matching with items displayed in check out page
 
 	public static void main(String[] args) throws MalformedURLException {
 
@@ -32,8 +35,9 @@ public class Ecommerce_TC_02 extends Appium{
 		String toastMessage=driver.findElement(By.xpath("//android.widget.Toast[1]")).getAttribute("name");
         System.out.println(toastMessage);
 
-		//Assert.assertEquals("Please enter your name", toastMessage);//Actual validation
-
+		Assert.assertEquals("Please enter your name", toastMessage);//Actual validation
+        
+        
 		//name attribute for toast messages will have content
 
 }

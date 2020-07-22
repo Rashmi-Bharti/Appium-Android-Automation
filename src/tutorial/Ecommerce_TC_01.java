@@ -7,7 +7,7 @@ import org.openqa.selenium.By;
 
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
-
+//fill the form details
 public class Ecommerce_TC_01 extends Appium{
 
 	public static void main(String[] args) throws MalformedURLException {
